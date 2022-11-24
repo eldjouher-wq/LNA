@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1920,
+    "id" : "https://eldjouher-wq.github.io/LNA/images/plotln3/canvas/",
+    "label" : {
+      "none" : [ "plotln3" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://eldjouher-wq.github.io/LNA/images/plotln3/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://eldjouher-wq.github.io/LNA/images/plotln3/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 60,
+              "height" : 40
+            }, {
+              "width" : 120,
+              "height" : 80
+            }, {
+              "width" : 240,
+              "height" : 160
+            }, {
+              "width" : 480,
+              "height" : 320
+            }, {
+              "width" : 960,
+              "height" : 640
+            }, {
+              "width" : 1920,
+              "height" : 1280
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1920,
+            "@id" : "https://eldjouher-wq.github.io/LNA/images/plotln3",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1280
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1920,
+          "id" : "https://eldjouher-wq.github.io/LNA/images/plotln3/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1280
+        },
+        "target" : "https://eldjouher-wq.github.io/LNA/images/plotln3/canvas/"
+      } ]
+    } ],
+    "height" : 1280
+  }, {
     "width" : 800,
     "id" : "https://eldjouher-wq.github.io/LNA/images/plotLNA2/canvas/",
     "label" : {
