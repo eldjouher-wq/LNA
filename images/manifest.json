@@ -1,0 +1,67 @@
+{
+  "id" : "https://eldjouher-wq.github.io/LNA/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in eldjouher-wq/LNA project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2000,
+    "id" : "https://eldjouher-wq.github.io/LNA/images/plotLNA1/canvas/",
+    "label" : {
+      "none" : [ "plotLNA1" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://eldjouher-wq.github.io/LNA/images/plotLNA1/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://eldjouher-wq.github.io/LNA/images/plotLNA1/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 63,
+              "height" : 32
+            }, {
+              "width" : 125,
+              "height" : 63
+            }, {
+              "width" : 250,
+              "height" : 125
+            }, {
+              "width" : 500,
+              "height" : 250
+            }, {
+              "width" : 1000,
+              "height" : 500
+            }, {
+              "width" : 2000,
+              "height" : 1000
+            } ],
+            "profile" : "level0",
+            "width" : 2000,
+            "id" : "https://eldjouher-wq.github.io/LNA/images/plotLNA1",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 1000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2000,
+          "id" : "https://eldjouher-wq.github.io/LNA/images/plotLNA1/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 1000
+        },
+        "target" : "https://eldjouher-wq.github.io/LNA/images/plotLNA1/canvas/"
+      } ]
+    } ],
+    "height" : 1000
+  } ]
+}
